@@ -1,0 +1,21 @@
+.root{
+	-fx-background-color:"black";
+}
+
+/* .label applies to all 'label' class in Main.fxml */
+/* Using lower case instead of Upper case */
+.label{
+	-fx-font-size: 20px;
+	-fx-font-family: "Lucida Console";
+	-fx-text-fill: "white";
+	-fx-alignment: center; /*The center align is only around the space the element is assigned */
+}
+
+#title{
+	-fx-font-family: "Arial";
+	/*-fx-alignment: center;*/
+}
+
+#title_label{
+	-fx-font-size: 16px;	
+}
